@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      project_servername: ${{ secerts.PROJECT_SERVERNAME}}
+      project_servername: ${{ secrets.PROJECT_SERVERNAME}}
       project_dbname: 34gk
 
     # Steps represent a sequence of tasks that will be executed as part of the job
